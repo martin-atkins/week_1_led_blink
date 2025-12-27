@@ -1,5 +1,7 @@
 # Project `led_test`
-Getting started with STM32 development with a LED blink project
+Getting started with STM32 development with a LED blink project 
+using a [NUCLEO-F411RE](https://www.st.com/en/evaluation-tools/nucleo-f411re.html#documentation) with 
+[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) 
 
 **Using these versions:**
 * `STM32CubeIDE` : `1.18.1`
