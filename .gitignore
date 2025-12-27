@@ -1,0 +1,13 @@
+# Common STM32 files to ignore
+   Debug/
+   Release/
+   *.o
+   *.elf
+   *.bin
+   *.hex
+   *.map
+   *.list
+   .settings/
+   .cproject
+   .project
+
