@@ -29,11 +29,11 @@ using a [NUCLEO-F411RE](https://www.st.com/en/evaluation-tools/nucleo-f411re.htm
     * Right-click on **PA5** and type a User Label of `LED_GREEN`
   * Write a simple program to blink the LED
     * Add a private variable into the top of `main.c`:
-      ```
+      ```c
       uint32_t delay_ms = 500;
       ```
     * Add the following into the `while` loop:
-      ```
+      ```c
       	  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
       	  HAL_Delay(delay_ms);
 
